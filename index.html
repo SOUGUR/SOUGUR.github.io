@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/resumebtn.css">
+    <link rel="stylesheet" href="css/certificates.css">
     <style>
         :root {
             --primary: #2563eb;
@@ -929,6 +930,7 @@
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#extracurricular">Activities</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -1224,6 +1226,19 @@
         </div>
     </section>
 
+    <!-- Certifications Section (cards rendered from js/certificates-data.js) -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div id="cert-preview" class="cert-grid" data-limit="3"></div>
+            <div class="cert-more">
+                <a href="certifications.html" class="btn btn-primary">
+                    Read More (<span id="cert-total"></span> certificates)<i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Extracurricular Section -->
     <section id="extracurricular">
         <div class="container">
@@ -1307,8 +1322,8 @@
                     </div>
                     <h3 class="activity-title">Certifications</h3>
                     <p class="activity-description">
-                        Meta Back-End Developer Professional Certificate, Google Data Analytics Professional Certificate, 
-                        CS50: Introduction to Computer Science, Scientific Computing in Python.
+                        Professional certificates from Meta, Google, Harvard (CS50) and freeCodeCamp.
+                        <a href="#certifications" style="color: var(--primary); font-weight: 500;">See details &rarr;</a>
                     </p>
                 </div>
             </div>
@@ -1483,5 +1498,7 @@
     <script src="js/slider.js"></script>
     <script src="js/theme.js"></script>
     <script src="js/resumebtn.js"></script>
+    <script src="js/certificates-data.js"></script>
+    <script src="js/certificates.js"></script>
 </body>
 </html>
