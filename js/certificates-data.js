@@ -25,6 +25,16 @@ const CERTIFICATES = [
         icon: "fab fa-meta"
     },
     {
+        title: "Google Machine Learning for Developers",
+        issuer: "Google",
+        platform: "",
+        date: "",
+        duration: "",
+        skills: ["Linear Regression", "PCA", "Data Transformation", "Neural Networks"],
+        credentialUrl: "",
+        icon: "fab fa-google"
+    },
+    {
         title: "Google Data Analytics Professional Certificate",
         issuer: "Google",
         platform: "Coursera",
