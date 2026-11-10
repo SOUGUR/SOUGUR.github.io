@@ -33,6 +33,9 @@
         if (cert.duration) {
             meta.push(`<span><i class="far fa-clock"></i> ${escapeHtml(cert.duration)}</span>`);
         }
+        if (cert.grade) {
+            meta.push(`<span><i class="fas fa-award"></i> Grade: ${escapeHtml(cert.grade)}</span>`);
+        }
         if (cert.platform) {
             meta.push(`<span><i class="fas fa-laptop"></i> ${escapeHtml(cert.platform)}</span>`);
         }

@@ -9,11 +9,24 @@
 //   date          - completion date as "YYYY-MM" (leave "" if unknown; undated items sort last)
 //   duration      - how long it took, e.g. "6 months" - optional
 //   skills        - list of tags
+//   grade         - grade achieved, e.g. "98%" - optional
 //   credentialUrl - verification link - optional
 //   icon          - Font Awesome class for the badge
 
 // TODO: fill in your real completion dates, durations and credential links.
 const CERTIFICATES = [
+    {
+        title: "Computer Hardware and Software",
+        issuer: "University of California, Irvine",
+        platform: "Coursera",
+        date: "2026-11",
+        duration: "11 hours",
+        grade: "98%",
+        skills: ["Computer Hardware", "Operating Systems", "Computer Networking",
+                 "Network Security", "Network Protocols", "System Software"],
+        credentialUrl: "",
+        icon: "fas fa-microchip"
+    },
     {
         title: "Meta Back-End Developer Professional Certificate",
         issuer: "Meta",
