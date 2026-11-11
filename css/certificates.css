@@ -132,3 +132,64 @@
 @media (max-width: 480px) {
     .cert-toolbar select { flex: 1 1 100%; }
 }
+
+/* ---- Grouped programs (several courses under one certificate) ---- */
+
+.cert-status {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 1px 8px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    vertical-align: 1px;
+    color: var(--text-muted);
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+}
+
+.cert-courses {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg-alt);
+}
+
+.cert-courses summary {
+    cursor: pointer;
+    padding: 9px 12px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.cert-courses ul {
+    list-style: none;
+    padding: 0 12px 10px;
+}
+
+.cert-courses li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+    padding: 6px 0;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+}
+
+.cert-course-title {
+    color: var(--text-muted);
+    min-width: 0;
+}
+
+.cert-course-meta {
+    flex-shrink: 0;
+    display: inline-flex;
+    gap: 10px;
+    color: var(--text-soft);
+    font-size: 0.8rem;
+}
+
+.cert-course-meta a {
+    font-weight: 600;
+}
