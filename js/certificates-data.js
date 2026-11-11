@@ -6,7 +6,7 @@
 //   title         - certificate name
 //   issuer        - university / organization that awards it
 //   platform      - where it was taken (Coursera, edX, ...) - optional
-//   date          - completion date as "YYYY-MM" (leave "" if unknown; undated items sort last)
+//   date          - completion date as "YYYY-MM" or "YYYY-MM-DD" (leave "" if unknown; undated items sort last)
 //   duration      - how long it took, e.g. "6 months" - optional
 //   skills        - list of tags
 //   grade         - grade achieved, e.g. "98%" - optional
@@ -16,10 +16,22 @@
 // TODO: fill in your real completion dates, durations and credential links.
 const CERTIFICATES = [
     {
+        title: "Introduction to MongoDB",
+        issuer: "MongoDB Inc.",
+        platform: "Coursera",
+        date: "2026-11-11",
+        duration: "15 hours",
+        grade: "93.66%",
+        skills: ["MongoDB", "NoSQL", "Data Modeling", "Aggregation Pipelines",
+                 "Indexes & Transactions", "Atlas Search"],
+        credentialUrl: "",
+        icon: "fas fa-leaf"
+    },
+    {
         title: "Computer Hardware and Software",
         issuer: "University of California, Irvine",
         platform: "Coursera",
-        date: "2026-11",
+        date: "2026-11-10",
         duration: "11 hours",
         grade: "98%",
         skills: ["Computer Hardware", "Operating Systems", "Computer Networking",
