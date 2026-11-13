@@ -21,6 +21,18 @@
 
 const CERTIFICATES = [
     {
+        title: "Introduction to Docker",
+        issuer: "LearnQuest",
+        platform: "Coursera",
+        date: "2026-11-13",
+        duration: "12 hours",
+        grade: "93.40%",
+        skills: ["Docker", "Containerization", "Virtualization", "Data Persistence",
+                 "Application Deployment", "Application Security"],
+        credentialUrl: "",
+        icon: "fab fa-docker"
+    },
+    {
         title: "Introduction to MongoDB",
         issuer: "MongoDB Inc.",
         platform: "Coursera",
