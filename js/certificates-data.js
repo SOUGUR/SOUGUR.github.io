@@ -21,6 +21,17 @@
 
 const CERTIFICATES = [
     {
+        title: "Model Context Protocol: Advanced Topics",
+        issuer: "Anthropic",
+        platform: "Coursera",
+        date: "2026-11-17",
+        duration: "2 hours",
+        grade: "95.87%",
+        skills: ["Model Context Protocol (MCP)", "MCP Servers", "LLM Tool Integration", "AI Agents"],
+        credentialUrl: "",
+        icon: "fas fa-plug"
+    },
+    {
         title: "Introduction to Docker",
         issuer: "LearnQuest",
         platform: "Coursera",
