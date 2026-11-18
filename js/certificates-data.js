@@ -21,6 +21,18 @@
 
 const CERTIFICATES = [
     {
+        title: "Software Development Processes and Methodologies",
+        issuer: "University of Minnesota",
+        platform: "Coursera",
+        date: "2026-11-18",
+        duration: "20 hours",
+        grade: "96.35%",
+        skills: ["Software Development Life Cycle", "Agile Methodology", "Waterfall Methodology",
+                 "Requirements Analysis", "Software Architecture", "Verification And Validation"],
+        credentialUrl: "",
+        icon: "fas fa-diagram-project"
+    },
+    {
         title: "Model Context Protocol: Advanced Topics",
         issuer: "Anthropic",
         platform: "Coursera",
