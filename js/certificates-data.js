@@ -21,6 +21,17 @@
 
 const CERTIFICATES = [
     {
+        title: "Back-End Infrastructure: Servers, Secure APIs and Data",
+        issuer: "Coursera",
+        platform: "Coursera",
+        date: "2026-11-19",
+        duration: "1 hour",
+        grade: "100%",
+        skills: ["Server Configuration", "API Security", "Data Protection", "Back-End Infrastructure"],
+        credentialUrl: "",
+        icon: "fas fa-server"
+    },
+    {
         title: "Software Development Processes and Methodologies",
         issuer: "University of Minnesota",
         platform: "Coursera",
